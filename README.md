@@ -11,11 +11,20 @@ No need for example.
 None.
 
 ## Installation
-PBJAnimations is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+PBJAnimations is available through [CocoaPods](http://cocoapods.org). 
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'PBJAnimations'
+```
+
+## How To Use
+To use PBJAnimations simply add one of the methods to your code.
+
+ Markup : * Objective-C
+
+```Objective-C
++(void)animateFadeImageView:(UIImageView *)imageView toImage:(UIImage *)image;
 ```
 
 ## Author
