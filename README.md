@@ -21,7 +21,7 @@ pod 'PBJAnimations'
 ## How To Use
 To use PBJAnimations simply add one of the methods to your code.
 
-*Objective-C
+* Objective-C
 
 ```Objective-C
 +(void)animateFadeImageView:(UIImageView *)imageView toImage:(UIImage *)image;
