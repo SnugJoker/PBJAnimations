@@ -21,7 +21,7 @@ pod 'PBJAnimations'
 ## How To Use
 To use PBJAnimations simply add one of the methods to your code.
 
-__Objective C__       
+#### Objective C ####       
 * Text Transitions     
        
 ```objectivec
