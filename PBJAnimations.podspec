@@ -11,7 +11,7 @@ s.name             = 'PBJAnimations'
 s.version          = '1.0.0'
 s.summary          = 'Animations & transitions framework.'
 s.description      = 'PBJAnimations is a simple framework for adding animations in no time.'
-s.homepage         = 'https://github.com/josephrazon/PBJAnimations'
+s.homepage         = 'https://github.com/SnugJoker/PBJAnimations'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'josephrazon' => 'razonjoe@gmail.com' }
 s.source           = { :git => 'https://github.com/SnugJoker/PBJAnimations.git', :tag => s.version.to_s }
