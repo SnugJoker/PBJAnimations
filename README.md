@@ -22,6 +22,7 @@ pod 'PBJAnimations'
 To use PBJAnimations simply add one of the methods to your code.
 
 * Objective-C
+* Text Transitions
 
 ```Objective-C
 +(void)animateFadeImageView:(UIImageView *)imageView toImage:(UIImage *)image;
