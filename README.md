@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/cocoapods/l/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 [![Platform](https://img.shields.io/cocoapods/p/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 
+## Description
+Nice collection of cool animations & transitions.
+
 ## Installation
 PBJAnimations is available through [CocoaPods](http://cocoapods.org). 
 To install it, simply add the following line to your Podfile:
