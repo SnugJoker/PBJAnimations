@@ -21,8 +21,8 @@ pod 'PBJAnimations'
 ## How To Use
 To use PBJAnimations simply add one of the methods to your code.
 
-* Objective C
-       * Text Transitions
+__Objective C__       
+* Text Transitions     
        
 ```objectivec
 +(void)animateTextFromLeftToRightWithLeftLabel:(UILabel *)leftLabel andWithRightLabel:(UILabel *)rightLabel onSuperView:(UIView *)viewSuper;
@@ -30,13 +30,13 @@ To use PBJAnimations simply add one of the methods to your code.
 +(void)animateTextFromRightToLeftOnFirstPageWithLeftLabel:(UILabel *)leftLabel onSuperView:(UIView *)viewSuper;
 ```
 
-   * Image Transitions
+* Image Transitions
    
 ```objectivec
 +(void)animateFadeImageView:(UIImageView *)imageView toImage:(UIImage *)image;
 ```
 
-    * View Transitions
+* View Transitions
     
 ```objectivec
 +(void)animateFadeInView:(UIView *)view withDuration:(NSTimeInterval)duration;
