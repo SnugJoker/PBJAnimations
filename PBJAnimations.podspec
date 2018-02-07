@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint PBJAnimations.podspec' to ensure this is a
+# Be sure to run `pod lib lint PBJDebuggingTools.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,35 +7,21 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PBJAnimations'
-  s.version          = '0.1.0'
-  s.summary          = 'A simiple framework for adding animations in no time.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.name             = 'PBJDebuggingTools'
+  s.version          = '1.0.0'
+  s.summary          = 'A short description of PBJDebuggingTools.'
 
   s.description      = 'PBJAnimations is a simiple framework for adding animations in no time.'
 
-  s.homepage         = 'https://github.com/SnugJoker/PBJAnimations'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/josephrazon/PBJDebuggingTools'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joseph Razon' => 'joseph-r@yit.co.il' }
-  s.source           = { :git => 'https://github.com/Joseph Razon/PBJAnimations.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'josephrazon' => 'JosephR@Urbanr.com' }
+  s.source           = { :git => 'https://github.com/josephrazon/PBJDebuggingTools.git', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PBJAnimations/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PBJAnimations' => ['PBJAnimations/Assets/*.png']
-  # }
+  s.source_files = 'PBJDebuggingTools/Classes/**/*'
 
-  s.public_header_files = 'PBJAnimations/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
+
 end
