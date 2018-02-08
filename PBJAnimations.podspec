@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'PBJAnimations'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'Animations & transitions framework.'
 s.description      = 'PBJAnimations is a simple framework for adding animations in no time.'
 s.homepage         = 'https://github.com/SnugJoker/PBJAnimations'
@@ -19,7 +19,7 @@ s.source           = { :git => 'https://github.com/SnugJoker/PBJAnimations.git',
 s.ios.deployment_target = '8.0'
 
 s.source_files = 'PBJAnimations/Classes/*'
-s.public_header_files = 'PBJAnimations/Classes/*.h'
+s.public_header_files = 'PBJAnimations/Classes/PBJAnimations.h'
 
 
 end
