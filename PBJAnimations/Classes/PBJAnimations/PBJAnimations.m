@@ -1,8 +1,8 @@
 //
 //  PBJAnimations.m
-//  JosephRazon
+//  Joseph Razon (razonjoe@gmail.com)
 //
-//  Created by Joseph on 7/9/15.
+//  Created by Joseph Razon (razonjoe@gmail.com) on 7/9/15.
 //  Copyright (c) 2015 PBJ. All rights reserved.
 //
 
