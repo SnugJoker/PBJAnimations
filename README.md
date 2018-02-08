@@ -7,6 +7,9 @@
 ## Description
 PBJAnimations is a nice collection of cool animations & transitions.
 
+## Requirements
+No requirements needed.
+
 ## Installation
 PBJAnimations is available through [CocoaPods](http://cocoapods.org). 
 To install it, simply add the following line to your Podfile:
