@@ -13,7 +13,7 @@ s.summary          = 'Animations & transitions framework.'
 s.description      = 'PBJAnimations is a simple framework for adding animations in no time.'
 s.homepage         = 'https://github.com/SnugJoker/PBJAnimations'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'josephrazon' => 'razonjoe@gmail.com' }
+s.author           = { 'Joseph Razon' => 'razonjoe@gmail.com' }
 s.source           = { :git => 'https://github.com/SnugJoker/PBJAnimations.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
