@@ -18,8 +18,8 @@ s.source           = { :git => 'https://github.com/SnugJoker/PBJAnimations.git',
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'PBJAnimations/Classes/PBJAnimations/*'
-s.public_header_files = 'PBJAnimations/Classes/PBJAnimations/*.h'
+s.source_files = 'PBJAnimations/Classes/*'
+s.public_header_files = 'PBJAnimations/Classes/*.h'
 
 
 end
