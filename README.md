@@ -8,7 +8,7 @@
 PBJAnimations is a nice collection of cool animations & transitions.
 
 ## Example
-![Screenshot](Screenies/screenshot.png)
+![Screenshot](Screenies/PBJAnimationDemo.gif)
 
 ## Requirements
 No requirements needed.
