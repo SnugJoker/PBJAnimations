@@ -39,17 +39,16 @@
 #pragma mark Text Transitions
 
 
-+(void)animateTextFromLeftToRightWithLeftLabel:(UILabel *)leftLabel andWithRightLabel:(UILabel *)rightLabel onSuperView:(UIView *)viewSuper
++(void)animateTextFromLeftToRightWithLeftLabel:(UILabel *)leftLabel andWithRightLabel:(UILabel *)rightLabel
 {
     CGRect rectRightLabel = rightLabel.frame;
-    rectRightLabel.origin.x = viewSuper.frame.size.width + (rectRightLabel.size.width * 2);
-    
+    rectRightLabel.origin.x = leftLabel.superview.frame.size.width + (rectRightLabel.size.width * 2);
     
     __block UILabel *rightLabelBlock = rightLabel;
     
     [UIView animateWithDuration:0.75 animations:^(){
         
-        [leftLabel setCenter:viewSuper.center];
+        [leftLabel setCenter:leftLabel.superview.center];
         [rightLabel setFrame:rectRightLabel];
         
     }completion:^(BOOL finished){
@@ -60,18 +59,17 @@
 }
 
 
-+(void)animateTextFromRightToLeftWithLeftLabel:(UILabel *)leftLabel andWithRightLabel:(UILabel *)rightLabel onSuperView:(UIView *)viewSuper
++(void)animateTextFromRightToLeftWithLeftLabel:(UILabel *)leftLabel andWithRightLabel:(UILabel *)rightLabel
 {
     CGRect rectLeftLabel = leftLabel.frame;
-    rectLeftLabel.origin.x = viewSuper.frame.size.width - (rectLeftLabel.size.width * 2);
-    
+    rectLeftLabel.origin.x = rightLabel.superview.frame.size.width - (rectLeftLabel.size.width * 2);
     
     __block UILabel *leftLabelBlock = leftLabel;
     
     [UIView animateWithDuration:0.75 animations:^(){
         
         [leftLabel setFrame:rectLeftLabel];
-        [rightLabel setCenter:viewSuper.center];
+        [rightLabel setCenter:rightLabel.superview.center];
         
     }completion:^(BOOL finished){
         
@@ -142,7 +140,7 @@
     }];
 }
 
-+(void)animateFrameOfView:(UIView *)view toFrame:(CGRect)frame withDuration:(NSTimeInterval)duration;
++(void)animateFrameOfView:(UIView *)view toFrame:(CGRect)frame withDuration:(NSTimeInterval)duration
 {
     [UIView animateWithDuration:duration animations:^(){
         
@@ -151,10 +149,10 @@
     }completion:^(BOOL finished){
         
         
-        
     }];
 }
 
 
 
 @end
+
