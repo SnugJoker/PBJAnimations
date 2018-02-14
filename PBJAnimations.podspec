@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'PBJAnimations'
-s.version          = '1.0.1'
+s.version          = '1.0.2'
 s.summary          = 'Animations & transitions framework.'
 s.description      = 'PBJAnimations is a simple framework for adding animations in no time.'
 s.homepage         = 'https://github.com/SnugJoker/PBJAnimations'
