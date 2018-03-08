@@ -1,9 +1,11 @@
 # PBJAnimations
+
 [![CI Status](http://img.shields.io/travis/SnugJoker/PBJAnimations.svg?style=flat)](https://travis-ci.org/SnugJoker/PBJAnimations)
 [![Version](https://img.shields.io/cocoapods/v/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 [![License](https://img.shields.io/cocoapods/l/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 [![Platform](https://img.shields.io/cocoapods/p/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 [![BCH compliance](https://bettercodehub.com/edge/badge/SnugJoker/PBJAnimations?branch=master)](https://bettercodehub.com/)
+![CocoaPods](https://img.shields.io/cocoapods/dt/PBJAnimations.svg)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JoeRazon)
 
 
