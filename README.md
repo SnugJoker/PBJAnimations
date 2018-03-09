@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 [![License](https://img.shields.io/cocoapods/l/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
 [![Platform](https://img.shields.io/cocoapods/p/PBJAnimations.svg?style=flat)](http://cocoapods.org/pods/PBJAnimations)
-![Languages](https://img.shields.io/badge/languages-Objective%20C-orange.svg?longCache=true&style=flat)
+![Languages](https://img.shields.io/badge/language-Objective%20C-orange.svg?longCache=true&style=flat)
 [![BCH compliance](https://bettercodehub.com/edge/badge/SnugJoker/PBJAnimations?branch=master)](https://bettercodehub.com/)
 ![CocoaPods](https://img.shields.io/cocoapods/dt/PBJAnimations.svg)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/JoeRazon)
